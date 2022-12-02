@@ -1,0 +1,201 @@
+.nav_bar{
+  background-color:#5465ff ;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:200px;
+}
+/*li:hover{
+    color:#5465ff;
+  background-color: snow;
+
+}*/
+ul{
+margin-left:50%;
+}
+.btn-a{
+  text-decoration:none;
+  color:snow;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+}
+
+.title{
+  color:white;
+  display:inline;
+}
+.btn{
+  margin-top:20px;
+  background-color:#5465ff ;
+  color:white;
+  border-color:white;
+
+}
+.btn:hover{
+  background-color:#FFFAFA;
+  color:#5465ff;
+
+
+}
+.section1{
+  color:white;
+  padding:50px;
+  height:500px;
+  background-color:#5465ff ;
+}
+.div{
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  width:600px;
+  margin:auto;
+}
+.div1{
+  margin-top:20%;
+}
+
+/*Home*/
+#home{
+  display:flex;
+}
+.profile{
+  display:inline-block;
+  margin-top:5%;
+  margin-left:32%;
+}
+.profile-details{
+  margin-top:5%;
+  width:500px;
+  height:300px;
+  border-style:solid;
+  border-color:#5465ff;
+  border-radius:.25rem;
+  display:inline-block;
+  padding:20px;
+
+}
+.profile-img{
+  border-style:solid;
+  border-width:2px;
+  border-radius:100%;
+  padding:5px;
+  border-color:#5465ff;
+}
+.card:hover,.profile-details:hover,.profile-img:hover{
+  box-shadow:0 0 3px 4px #5465ff;
+}
+h4{
+  color:#5465ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  margin-left:30%;
+
+}
+.about{
+  color:#5465ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+}
+/*skill-level*/
+#skill-level{
+  background-color: #5465ff;
+  padding:5% 5% 5% 5%;
+  margin-top:5%;
+
+}
+.skills{
+  color:snow;
+  padding:20px;
+  margin-left:40%;
+}
+h6{
+  border-style:solid;
+  border-color:snow;
+  color:snow;
+  text-align:center;
+  width:75%;
+  height:50px;
+  border-radius:.45rem;
+  margin-left:15%;
+  padding:10px 50px;
+  display:inline-block;
+  font-family: 'Montserrat', sans-serif;
+}
+h6:hover{
+  background-color: snow;
+  color:#5465ff;
+  border-color:#5465ff;
+}
+/*skill-card*/
+#skill-card{
+  margin-top:5%;
+}
+.card{
+  border-color:#5465ff;
+  border-width:3px;
+  margin-left:10%;
+  margin-top:5%;
+
+}
+.card-header{
+  color:snow;
+  padding-left:40px;
+  background-color:#5465ff;
+  border-width:3px;
+
+}
+.card-body{
+  color:#5465ff;
+}
+/*Feature*/
+.f3{
+  background-color: red;
+}
+/* contact-style*/
+.contact-style{
+  background-color: #5465ff;
+  height:200px;
+  margin-top:5%;
+}
+.icons{
+  margin-left:45%;
+}
+.i1{
+  color:white;
+  margin-left:20px;
+
+
+}
+.para{
+  color:snow;
+  margin-left:42%;
+  margin-top:20px;
+}
+.h2-style{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  margin-left:10%;
+  padding:20px;
+}
+/*media queries*/
+@media only screen and (max-width:768px){
+  .div{
+    width:420px;
+
+  }
+
+  .card{
+    margin-left:15%;
+  }
+  .icons{
+    margin-left:30%;
+
+  }
+  .para{
+    margin-left:22%;
+  }
+  .profile-details{
+    width:450px;
+    padding:10px;
+    height:320px;
+  }
+
+}
